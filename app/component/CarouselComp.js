@@ -1,10 +1,12 @@
-import Carousel from 'react-bootstrap/Carousel';
+"use client";
+
+import Carousel from "react-bootstrap/Carousel";
 
 function Carouselcomp() {
   return (
     <Carousel>
       <Carousel.Item>
-            <div>hello</div>
+        <div>hello</div>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -18,7 +20,7 @@ function Carouselcomp() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-            <div>helloksnldfln</div>
+        <div>helloksnldfln</div>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
