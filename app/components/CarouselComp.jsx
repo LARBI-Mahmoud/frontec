@@ -2,7 +2,7 @@ import { Carousel, CarouselCaption, CarouselItem } from "react-bootstrap";
 
 // https://nextjs.org/docs/app/building-your-application/rendering/server-components
 // Kenit bekri Library kemla esmha Carousel
-// zid ekhdem ala routing 
+// zid ekhdem ala routing
 // https://nextjs.org/docs/getting-started/project-structure
 // https://nextjs.org/docs/pages/building-your-application/routing
 
@@ -27,9 +27,7 @@ function CarouselComp() {
         <div>helloksnldfln</div>
         <CarouselCaption>
           <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur
-          </p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur</p>
         </CarouselCaption>
       </CarouselItem>
     </Carousel>
